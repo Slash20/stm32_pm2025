@@ -18,8 +18,8 @@ int __attribute((noreturn)) main(void) {
 
     while (1) {
 	    GPIOC->ODR |= (1U<<13U); //U -- unsigned suffix (to avoid syntax warnings in IDE)
-		delay(1000000);
+		delay(100000);
 	    GPIOC->ODR &= ~(1U<<13U);
-	    delay(1000000);
+	    delay(100000);
     }
 }
