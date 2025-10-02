@@ -1,6 +1,7 @@
 CMakeFiles/
 build/
 .idea
+.vscode
 *.cbp
 *.bak
 *.bin
